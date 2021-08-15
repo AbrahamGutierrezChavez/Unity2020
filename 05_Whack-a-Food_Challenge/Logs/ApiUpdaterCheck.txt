@@ -1,0 +1,37 @@
+[api-updater (non-obsolete-error-filter)] 13/08/2021 11:22:37 p. m. : Starting C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 367.0938ms
+moved types parse time: 594ms
+candidates parse time : 11ms
+C# parse time         : 788ms
+candidates check time : 808ms
+console write time    : 1ms
+
+[api-updater (non-obsolete-error-filter)] 13/08/2021 11:23:04 p. m. : Starting C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 165.0432ms
+moved types parse time: 115ms
+candidates parse time : 23ms
+C# parse time         : 553ms
+candidates check time : 1013ms
+console write time    : 1ms
+
+[api-updater (non-obsolete-error-filter)] 13/08/2021 11:25:27 p. m. : Starting C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] Exception caught while loading types from C:\Users\Remp\Desktop\Unity\05_Whack-a-Food_Challenge\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll (some types may not be loaded)
+	Exception of type 'System.Reflection.ReflectionTypeLoadException' was thrown.
+	  at (wrapper managed-to-native) System.Reflection.Assembly.GetTypes(System.Reflection.Assembly,bool)
+  at System.Reflection.Assembly.GetTypes () [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at APIUpdater.NonObsoleteApiUpdaterDetector.ExtraInfoParser+<LoadTypesWithMovedFromAttributeAsync>d__3.MoveNext () [0x000c8] in <68bff7873e0e4aa69a14dfc30bebbe3e>:0 
+	Could not load file or assembly 'UnityEditor.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies.
+
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 359.0906ms
+moved types parse time: 145ms
+candidates parse time : 30ms
+C# parse time         : 759ms
+candidates check time : 936ms
+console write time    : 1ms
+
