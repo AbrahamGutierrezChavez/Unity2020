@@ -10,9 +10,15 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/GameEnding.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/Observer.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
       <option value="$PROJECT_DIR$/Assets/_Scripts/PlayerController.cs" />
+      <option value="$PROJECT_DIR$/Assets/_Scripts/Observer.cs" />
+      <option value="$PROJECT_DIR$/Assets/_Scripts/GameEnding.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1wls9tJaOci7NwuTxzCAxZIsYZC" />
@@ -62,7 +68,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1629044378003</updated>
-      <workItem from="1629044400957" duration="5963000" />
+      <workItem from="1629044400957" duration="13269000" />
     </task>
     <servers />
   </component>
