@@ -52,47 +52,47 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Library\PackageCache\com.unity.ads@3.4.7\Runtime\Advertisement\BannerOptions.cs" />
-     <Compile Include="Library\PackageCache\com.unity.ads@3.4.7\Runtime\Advertisement\Utilities\CoroutineExecutor.cs" />
-     <Compile Include="Library\PackageCache\com.unity.ads@3.4.7\Runtime\Advertisement\Purchasing\IPurchasingEventSender.cs" />
-     <Compile Include="Library\PackageCache\com.unity.ads@3.4.7\Runtime\Advertisement\BannerLoadOptions.cs" />
      <Compile Include="Library\PackageCache\com.unity.ads@3.4.7\Runtime\Advertisement\Banner.cs" />
-     <Compile Include="Library\PackageCache\com.unity.ads@3.4.7\Runtime\Advertisement\Utilities\MiniJSON.cs" />
      <Compile Include="Library\PackageCache\com.unity.ads@3.4.7\Runtime\Advertisement\ShowOptions.cs" />
-     <Compile Include="Library\PackageCache\com.unity.ads@3.4.7\Runtime\Advertisement\Configuration.cs" />
-     <Compile Include="Library\PackageCache\com.unity.ads@3.4.7\Runtime\Advertisement\Utilities\ApplicationQuit.cs" />
-     <Compile Include="Library\PackageCache\com.unity.ads@3.4.7\Runtime\Advertisement\Platform\Unsupported\UnsupportedBanner.cs" />
-     <Compile Include="Library\PackageCache\com.unity.ads@3.4.7\Runtime\Advertisement\Platform\Android\BannerBundle.cs" />
      <Compile Include="Library\PackageCache\com.unity.ads@3.4.7\Runtime\Advertisement\Platform\Unsupported\UnsupportedPlatform.cs" />
-     <Compile Include="Library\PackageCache\com.unity.ads@3.4.7\Runtime\Advertisement\Enums\BannerPosition.cs" />
-     <Compile Include="Library\PackageCache\com.unity.ads@3.4.7\Runtime\Advertisement\Platform\Editor\BannerPlaceholder.cs" />
      <Compile Include="Library\PackageCache\com.unity.ads@3.4.7\Runtime\Advertisement\Purchasing\Purchase.cs" />
      <Compile Include="Library\PackageCache\com.unity.ads@3.4.7\Runtime\Advertisement\Events\StartEventArgs.cs" />
-     <Compile Include="Library\PackageCache\com.unity.ads@3.4.7\Runtime\Advertisement\Utilities\Color.cs" />
-     <Compile Include="Library\PackageCache\com.unity.ads@3.4.7\Runtime\Advertisement\Platform\Editor\EditorPlatform.cs" />
      <Compile Include="Library\PackageCache\com.unity.ads@3.4.7\Runtime\Advertisement\Platform\Android\AndroidPlatform.cs" />
-     <Compile Include="Library\PackageCache\com.unity.ads@3.4.7\Runtime\Advertisement\Platform\Editor\Placeholder.cs" />
      <Compile Include="Library\PackageCache\com.unity.ads@3.4.7\Runtime\Advertisement\Platform\Platform.cs" />
      <Compile Include="Library\PackageCache\com.unity.ads@3.4.7\Runtime\Advertisement\Purchasing\IPurchase.cs" />
-     <Compile Include="Library\PackageCache\com.unity.ads@3.4.7\Runtime\Advertisement\Events\FinishEventArgs.cs" />
      <Compile Include="Library\PackageCache\com.unity.ads@3.4.7\Runtime\Advertisement\INativeBanner.cs" />
-     <Compile Include="Library\PackageCache\com.unity.ads@3.4.7\Runtime\Advertisement\Enums\ShowResult.cs" />
-     <Compile Include="Library\PackageCache\com.unity.ads@3.4.7\Runtime\Advertisement\Platform\Android\AndroidBanner.cs" />
      <Compile Include="Library\PackageCache\com.unity.ads@3.4.7\Runtime\Advertisement\AssemblyInfo.cs" />
-     <Compile Include="Library\PackageCache\com.unity.ads@3.4.7\Runtime\Advertisement\Platform\INativePlatform.cs" />
      <Compile Include="Library\PackageCache\com.unity.ads@3.4.7\Runtime\Advertisement\Platform\iOS\IosBanner.cs" />
-     <Compile Include="Library\PackageCache\com.unity.ads@3.4.7\Runtime\Advertisement\IUnityAdsListener.cs" />
-     <Compile Include="Library\PackageCache\com.unity.ads@3.4.7\Runtime\Advertisement\Enums\PlacementState.cs" />
-     <Compile Include="Library\PackageCache\com.unity.ads@3.4.7\Runtime\Advertisement\Utilities\UnityLifecycleManager.cs" />
-     <Compile Include="Library\PackageCache\com.unity.ads@3.4.7\Runtime\Advertisement\Platform\Editor\EditorBanner.cs" />
      <Compile Include="Library\PackageCache\com.unity.ads@3.4.7\Runtime\Advertisement\IBanner.cs" />
-     <Compile Include="Library\PackageCache\com.unity.ads@3.4.7\Runtime\Advertisement\Purchasing\Purchasing.cs" />
      <Compile Include="Library\PackageCache\com.unity.ads@3.4.7\Runtime\Advertisement\Platform\iOS\IosPlatform.cs" />
-     <Compile Include="Library\PackageCache\com.unity.ads@3.4.7\Runtime\Advertisement\Utilities\IUnityLifecycleManager.cs" />
-     <Compile Include="Library\PackageCache\com.unity.ads@3.4.7\Runtime\Advertisement\MetaData.cs" />
-     <Compile Include="Library\PackageCache\com.unity.ads@3.4.7\Runtime\Advertisement\Advertisement.cs" />
+     <Compile Include="Library\PackageCache\com.unity.ads@3.4.7\Runtime\Advertisement\Purchasing\Purchasing.cs" />
      <Compile Include="Library\PackageCache\com.unity.ads@3.4.7\Runtime\Advertisement\Purchasing\PurchasingPlatform.cs" />
      <Compile Include="Library\PackageCache\com.unity.ads@3.4.7\Runtime\Advertisement\Platform\IPlatform.cs" />
+     <Compile Include="Library\PackageCache\com.unity.ads@3.4.7\Runtime\Advertisement\Utilities\CoroutineExecutor.cs" />
+     <Compile Include="Library\PackageCache\com.unity.ads@3.4.7\Runtime\Advertisement\BannerLoadOptions.cs" />
+     <Compile Include="Library\PackageCache\com.unity.ads@3.4.7\Runtime\Advertisement\Platform\Unsupported\UnsupportedBanner.cs" />
+     <Compile Include="Library\PackageCache\com.unity.ads@3.4.7\Runtime\Advertisement\Platform\Android\BannerBundle.cs" />
+     <Compile Include="Library\PackageCache\com.unity.ads@3.4.7\Runtime\Advertisement\Enums\BannerPosition.cs" />
+     <Compile Include="Library\PackageCache\com.unity.ads@3.4.7\Runtime\Advertisement\Platform\Editor\EditorPlatform.cs" />
+     <Compile Include="Library\PackageCache\com.unity.ads@3.4.7\Runtime\Advertisement\Platform\Editor\Placeholder.cs" />
+     <Compile Include="Library\PackageCache\com.unity.ads@3.4.7\Runtime\Advertisement\Platform\Editor\EditorBanner.cs" />
+     <Compile Include="Library\PackageCache\com.unity.ads@3.4.7\Runtime\Advertisement\Utilities\IUnityLifecycleManager.cs" />
+     <Compile Include="Library\PackageCache\com.unity.ads@3.4.7\Runtime\Advertisement\Purchasing\IPurchasingEventSender.cs" />
+     <Compile Include="Library\PackageCache\com.unity.ads@3.4.7\Runtime\Advertisement\Utilities\ApplicationQuit.cs" />
+     <Compile Include="Library\PackageCache\com.unity.ads@3.4.7\Runtime\Advertisement\Platform\Editor\BannerPlaceholder.cs" />
+     <Compile Include="Library\PackageCache\com.unity.ads@3.4.7\Runtime\Advertisement\Utilities\Color.cs" />
+     <Compile Include="Library\PackageCache\com.unity.ads@3.4.7\Runtime\Advertisement\Events\FinishEventArgs.cs" />
+     <Compile Include="Library\PackageCache\com.unity.ads@3.4.7\Runtime\Advertisement\Enums\ShowResult.cs" />
+     <Compile Include="Library\PackageCache\com.unity.ads@3.4.7\Runtime\Advertisement\Platform\INativePlatform.cs" />
+     <Compile Include="Library\PackageCache\com.unity.ads@3.4.7\Runtime\Advertisement\IUnityAdsListener.cs" />
+     <Compile Include="Library\PackageCache\com.unity.ads@3.4.7\Runtime\Advertisement\Utilities\UnityLifecycleManager.cs" />
+     <Compile Include="Library\PackageCache\com.unity.ads@3.4.7\Runtime\Advertisement\Advertisement.cs" />
+     <Compile Include="Library\PackageCache\com.unity.ads@3.4.7\Runtime\Advertisement\BannerOptions.cs" />
+     <Compile Include="Library\PackageCache\com.unity.ads@3.4.7\Runtime\Advertisement\Utilities\MiniJSON.cs" />
+     <Compile Include="Library\PackageCache\com.unity.ads@3.4.7\Runtime\Advertisement\Configuration.cs" />
+     <Compile Include="Library\PackageCache\com.unity.ads@3.4.7\Runtime\Advertisement\Platform\Android\AndroidBanner.cs" />
+     <Compile Include="Library\PackageCache\com.unity.ads@3.4.7\Runtime\Advertisement\Enums\PlacementState.cs" />
+     <Compile Include="Library\PackageCache\com.unity.ads@3.4.7\Runtime\Advertisement\MetaData.cs" />
      <None Include="Library\PackageCache\com.unity.ads@3.4.7\Runtime\Advertisement\UnityEngine.Advertisements.asmdef" />
  <Reference Include="UnityEngine">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
@@ -322,29 +322,29 @@
  <Reference Include="UnityEditor.WindowsStandalone.Extensions">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
  </Reference>
- <Reference Include="Unity.Plastic.Antlr3.Runtime">
- <HintPath>C:/Users/Remp/Desktop/Unity/FP_John_Lemon/Library/PackageCache/com.unity.collab-proxy@1.5.7/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll</HintPath>
- </Reference>
- <Reference Include="log4netPlastic">
- <HintPath>C:/Users/Remp/Desktop/Unity/FP_John_Lemon/Library/PackageCache/com.unity.collab-proxy@1.5.7/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
- </Reference>
- <Reference Include="Newtonsoft.Json">
- <HintPath>C:/Users/Remp/Desktop/Unity/FP_John_Lemon/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>
- </Reference>
- <Reference Include="unityplastic">
- <HintPath>C:/Users/Remp/Desktop/Unity/FP_John_Lemon/Library/PackageCache/com.unity.collab-proxy@1.5.7/Lib/Editor/PlasticSCM/unityplastic.dll</HintPath>
- </Reference>
  <Reference Include="Unity.Analytics.StandardEvents">
  <HintPath>C:/Users/Remp/Desktop/Unity/FP_John_Lemon/Library/PackageCache/com.unity.analytics@3.3.5/AnalyticsStandardEvents/Unity.Analytics.StandardEvents.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Analytics.Editor">
  <HintPath>C:/Users/Remp/Desktop/Unity/FP_John_Lemon/Library/PackageCache/com.unity.analytics@3.3.5/Unity.Analytics.Editor.dll</HintPath>
  </Reference>
- <Reference Include="Unity.Analytics.Tracker">
- <HintPath>C:/Users/Remp/Desktop/Unity/FP_John_Lemon/Library/PackageCache/com.unity.analytics@3.3.5/Unity.Analytics.Tracker.dll</HintPath>
+ <Reference Include="Unity.Plastic.Antlr3.Runtime">
+ <HintPath>C:/Users/Remp/Desktop/Unity/FP_John_Lemon/Library/PackageCache/com.unity.collab-proxy@1.5.7/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.Purchasing">
  <HintPath>C:/Users/Remp/Desktop/Unity/FP_John_Lemon/Library/PackageCache/com.unity.purchasing@2.0.6/Editor/UnityEditor.Purchasing.dll</HintPath>
+ </Reference>
+ <Reference Include="log4netPlastic">
+ <HintPath>C:/Users/Remp/Desktop/Unity/FP_John_Lemon/Library/PackageCache/com.unity.collab-proxy@1.5.7/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Analytics.Tracker">
+ <HintPath>C:/Users/Remp/Desktop/Unity/FP_John_Lemon/Library/PackageCache/com.unity.analytics@3.3.5/Unity.Analytics.Tracker.dll</HintPath>
+ </Reference>
+ <Reference Include="Newtonsoft.Json">
+ <HintPath>C:/Users/Remp/Desktop/Unity/FP_John_Lemon/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>
+ </Reference>
+ <Reference Include="unityplastic">
+ <HintPath>C:/Users/Remp/Desktop/Unity/FP_John_Lemon/Library/PackageCache/com.unity.collab-proxy@1.5.7/Lib/Editor/PlasticSCM/unityplastic.dll</HintPath>
  </Reference>
  <Reference Include="netstandard">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>

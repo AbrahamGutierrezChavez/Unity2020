@@ -53,7 +53,8 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
-     <Compile Include="Assets\Scripts\LightFlicker.cs" />
+     <Compile Include="Assets\_Scripts\PlayerController.cs" />
+     <Compile Include="Assets\_Scripts\LightFlicker.cs" />
      <None Include="Assets\3DBeginner_Third-PartyNotice.txt" />
      <None Include="Assets\Shaders\ToonShader.shader" />
      <None Include="Assets\Shaders\SpookyStandardShader.shader" />
@@ -256,14 +257,20 @@
  <Reference Include="Unity.VSCode.Editor">
  <HintPath>C:/Users/Remp/Desktop/Unity/FP_John_Lemon/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
  </Reference>
+ <Reference Include="Unity.2D.Tilemap.Editor">
+ <HintPath>C:/Users/Remp/Desktop/Unity/FP_John_Lemon/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
+ </Reference>
  <Reference Include="Unity.TextMeshPro.Editor">
  <HintPath>C:/Users/Remp/Desktop/Unity/FP_John_Lemon/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.VisualStudio.Editor">
  <HintPath>C:/Users/Remp/Desktop/Unity/FP_John_Lemon/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
  </Reference>
- <Reference Include="Unity.Timeline.Editor">
- <HintPath>C:/Users/Remp/Desktop/Unity/FP_John_Lemon/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+ <Reference Include="Unity.2D.Sprite.Editor">
+ <HintPath>C:/Users/Remp/Desktop/Unity/FP_John_Lemon/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Postprocessing.Editor">
+ <HintPath>C:/Users/Remp/Desktop/Unity/FP_John_Lemon/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.UI">
  <HintPath>C:/Users/Remp/Desktop/Unity/FP_John_Lemon/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
@@ -274,23 +281,17 @@
  <Reference Include="Unity.Rider.Editor">
  <HintPath>C:/Users/Remp/Desktop/Unity/FP_John_Lemon/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
  </Reference>
+ <Reference Include="com.unity.cinemachine.editor">
+ <HintPath>C:/Users/Remp/Desktop/Unity/FP_John_Lemon/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Timeline.Editor">
+ <HintPath>C:/Users/Remp/Desktop/Unity/FP_John_Lemon/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+ </Reference>
  <Reference Include="UnityEditor.XR.LegacyInputHelpers">
  <HintPath>C:/Users/Remp/Desktop/Unity/FP_John_Lemon/Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.SpatialTracking">
  <HintPath>C:/Users/Remp/Desktop/Unity/FP_John_Lemon/Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll</HintPath>
- </Reference>
- <Reference Include="Unity.2D.Tilemap.Editor">
- <HintPath>C:/Users/Remp/Desktop/Unity/FP_John_Lemon/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.Postprocessing.Editor">
- <HintPath>C:/Users/Remp/Desktop/Unity/FP_John_Lemon/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
- </Reference>
- <Reference Include="com.unity.cinemachine.editor">
- <HintPath>C:/Users/Remp/Desktop/Unity/FP_John_Lemon/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.2D.Sprite.Editor">
- <HintPath>C:/Users/Remp/Desktop/Unity/FP_John_Lemon/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Newtonsoft.Json">
  <HintPath>C:/Users/Remp/Desktop/Unity/FP_John_Lemon/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/AOT/Newtonsoft.Json.dll</HintPath>
@@ -653,6 +654,10 @@
       <Project>{a5c46bd6-b8ca-3409-e72f-fa0be94c68bb}</Project>
       <Name>Unity.TextMeshPro</Name>
     </ProjectReference>
+    <ProjectReference Include="UnityEngine.Advertisements.csproj">
+      <Project>{423f263e-e040-9502-f6ef-767c34b49926}</Project>
+      <Name>UnityEngine.Advertisements</Name>
+    </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
       <Project>{dbea07e6-8027-8f84-106b-148c22d96aab}</Project>
       <Name>UnityEngine.UI</Name>
@@ -661,29 +666,25 @@
       <Project>{1443c72c-206c-3abb-92c1-672293cca571}</Project>
       <Name>UnityEngine.SpatialTracking</Name>
     </ProjectReference>
-    <ProjectReference Include="UnityEngine.Monetization.csproj">
-      <Project>{ad6a5132-e666-d513-62e0-529f6af538da}</Project>
-      <Name>UnityEngine.Monetization</Name>
-    </ProjectReference>
-    <ProjectReference Include="UnityEngine.Advertisements.csproj">
-      <Project>{423f263e-e040-9502-f6ef-767c34b49926}</Project>
-      <Name>UnityEngine.Advertisements</Name>
+    <ProjectReference Include="Unity.Analytics.DataPrivacy.csproj">
+      <Project>{513cb7ce-d415-1d70-0c7b-5a768b35673f}</Project>
+      <Name>Unity.Analytics.DataPrivacy</Name>
     </ProjectReference>
     <ProjectReference Include="Cinemachine.csproj">
       <Project>{f420814b-9780-067e-443b-bb6760d9138a}</Project>
       <Name>Cinemachine</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.Analytics.DataPrivacy.csproj">
-      <Project>{513cb7ce-d415-1d70-0c7b-5a768b35673f}</Project>
-      <Name>Unity.Analytics.DataPrivacy</Name>
+    <ProjectReference Include="Unity.Postprocessing.Runtime.csproj">
+      <Project>{6fcc1bb8-50f9-c68b-340d-705143584454}</Project>
+      <Name>Unity.Postprocessing.Runtime</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.XR.LegacyInputHelpers.csproj">
       <Project>{fbaa54d9-08fb-3281-ba4d-6bb8cef98678}</Project>
       <Name>UnityEngine.XR.LegacyInputHelpers</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.Postprocessing.Runtime.csproj">
-      <Project>{6fcc1bb8-50f9-c68b-340d-705143584454}</Project>
-      <Name>Unity.Postprocessing.Runtime</Name>
+    <ProjectReference Include="UnityEngine.Monetization.csproj">
+      <Project>{ad6a5132-e666-d513-62e0-529f6af538da}</Project>
+      <Name>UnityEngine.Monetization</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
