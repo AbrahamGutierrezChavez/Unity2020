@@ -11,6 +11,8 @@ public class PlayerController : MonoBehaviour
 
     private Rigidbody _rigidbody;
 
+    private AudioSource _audioSource;
+
     [SerializeField]
     private float turnSpeed;
 
@@ -22,6 +24,7 @@ public class PlayerController : MonoBehaviour
     {
         _animator = GetComponent<Animator>();
         _rigidbody = GetComponent<Rigidbody>();
+        _audioSource = GetComponent<AudioSource>();
     }
 
     
@@ -37,6 +40,16 @@ public class PlayerController : MonoBehaviour
         bool isWalking = hasHorizontalInput || hasVerticalInput;
         
         _animator.SetBool("IsWalking",isWalking);
+        if (isWalking)
+        {
+            if (!_audioSource.isPlaying)
+            {
+                _audioSource.Play();
+            }
+        } else 
+        {
+            _audioSource.Stop();
+        }
 
         Vector3 desiredForward = Vector3.RotateTowards(transform.forward,
             movement,turnSpeed * Time.deltaTime, 0f);
