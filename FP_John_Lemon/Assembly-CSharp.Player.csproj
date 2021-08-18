@@ -52,12 +52,12 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\_Scripts\WayPointPatrol.cs" />
      <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
      <Compile Include="Assets\_Scripts\GameEnding.cs" />
      <Compile Include="Assets\_Scripts\PlayerController.cs" />
      <Compile Include="Assets\_Scripts\Observer.cs" />
      <Compile Include="Assets\_Scripts\LightFlicker.cs" />
-     <Compile Include="Assets\_Scripts\WayPointPatrol.cs" />
      <None Include="Assets\3DBeginner_Third-PartyNotice.txt" />
      <None Include="Assets\Shaders\ToonShader.shader" />
      <None Include="Assets\Shaders\SpookyStandardShader.shader" />
@@ -269,6 +269,9 @@
  <Reference Include="Unity.VisualStudio.Editor">
  <HintPath>C:/Users/Remp/Desktop/Unity/FP_John_Lemon/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
  </Reference>
+ <Reference Include="Unity.Searcher.Editor">
+ <HintPath>C:/Users/Remp/Desktop/Unity/FP_John_Lemon/Library/ScriptAssemblies/Unity.Searcher.Editor.dll</HintPath>
+ </Reference>
  <Reference Include="Unity.2D.Sprite.Editor">
  <HintPath>C:/Users/Remp/Desktop/Unity/FP_John_Lemon/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
  </Reference>
@@ -284,6 +287,9 @@
  <Reference Include="Unity.Rider.Editor">
  <HintPath>C:/Users/Remp/Desktop/Unity/FP_John_Lemon/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
  </Reference>
+ <Reference Include="Unity.ShaderGraph.Editor">
+ <HintPath>C:/Users/Remp/Desktop/Unity/FP_John_Lemon/Library/ScriptAssemblies/Unity.ShaderGraph.Editor.dll</HintPath>
+ </Reference>
  <Reference Include="com.unity.cinemachine.editor">
  <HintPath>C:/Users/Remp/Desktop/Unity/FP_John_Lemon/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
  </Reference>
@@ -295,6 +301,15 @@
  </Reference>
  <Reference Include="UnityEditor.SpatialTracking">
  <HintPath>C:/Users/Remp/Desktop/Unity/FP_John_Lemon/Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.RenderPipelines.Core.Editor">
+ <HintPath>C:/Users/Remp/Desktop/Unity/FP_John_Lemon/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.RenderPipelines.Universal.Editor">
+ <HintPath>C:/Users/Remp/Desktop/Unity/FP_John_Lemon/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Mathematics.Editor">
+ <HintPath>C:/Users/Remp/Desktop/Unity/FP_John_Lemon/Library/ScriptAssemblies/Unity.Mathematics.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Newtonsoft.Json">
  <HintPath>C:/Users/Remp/Desktop/Unity/FP_John_Lemon/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/AOT/Newtonsoft.Json.dll</HintPath>
@@ -661,6 +676,14 @@
       <Project>{423f263e-e040-9502-f6ef-767c34b49926}</Project>
       <Name>UnityEngine.Advertisements</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.RenderPipelines.Core.Runtime.csproj">
+      <Project>{00adf7c7-2078-4521-16fb-c435428c2839}</Project>
+      <Name>Unity.RenderPipelines.Core.Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.RenderPipelines.Core.ShaderLibrary.csproj">
+      <Project>{afc24fb2-4310-21fd-84d0-47f12bc2154a}</Project>
+      <Name>Unity.RenderPipelines.Core.ShaderLibrary</Name>
+    </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
       <Project>{dbea07e6-8027-8f84-106b-148c22d96aab}</Project>
       <Name>UnityEngine.UI</Name>
@@ -685,9 +708,29 @@
       <Project>{fbaa54d9-08fb-3281-ba4d-6bb8cef98678}</Project>
       <Name>UnityEngine.XR.LegacyInputHelpers</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.csproj">
+      <Project>{12ac5992-7b72-9105-bd53-165a91fb7f27}</Project>
+      <Name>Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary</Name>
+    </ProjectReference>
     <ProjectReference Include="UnityEngine.Monetization.csproj">
       <Project>{ad6a5132-e666-d513-62e0-529f6af538da}</Project>
       <Name>UnityEngine.Monetization</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Mathematics.csproj">
+      <Project>{e0740668-28d0-8aea-3eaf-6a1cd6e59dcf}</Project>
+      <Name>Unity.Mathematics</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.RenderPipelines.Universal.Shaders.csproj">
+      <Project>{a37c181c-0abd-3049-3d58-d5a65891b500}</Project>
+      <Name>Unity.RenderPipelines.Universal.Shaders</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.RenderPipeline.Universal.ShaderLibrary.csproj">
+      <Project>{ca4fe30c-9c4c-c555-8ecc-073309070fd2}</Project>
+      <Name>Unity.RenderPipeline.Universal.ShaderLibrary</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.RenderPipelines.Universal.Runtime.csproj">
+      <Project>{e27cdf6b-0267-8ed8-1850-72e2f2af2047}</Project>
+      <Name>Unity.RenderPipelines.Universal.Runtime</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

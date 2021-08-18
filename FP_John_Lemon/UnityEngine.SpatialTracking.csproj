@@ -302,6 +302,9 @@
  <Reference Include="Unity.Analytics.Tracker">
  <HintPath>C:/Users/Remp/Desktop/Unity/FP_John_Lemon/Library/PackageCache/com.unity.analytics@3.3.5/Unity.Analytics.Tracker.dll</HintPath>
  </Reference>
+ <Reference Include="ICSharpCode.NRefactory">
+ <HintPath>C:/Users/Remp/Desktop/Unity/FP_John_Lemon/Library/PackageCache/com.unity.render-pipelines.core@10.5.1/Editor/ShaderGenerator/ICSharpCode.NRefactory.dll</HintPath>
+ </Reference>
  <Reference Include="Newtonsoft.Json">
  <HintPath>C:/Users/Remp/Desktop/Unity/FP_John_Lemon/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>
  </Reference>
