@@ -6,6 +6,47 @@
       <change beforePath="$PROJECT_DIR$/Assembly-CSharp-Editor.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp-Editor.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assembly-CSharp.Player.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.Player.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Bathroom/Bathtub.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Bathroom/Bathtub.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Bathroom/BathtubLeg.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Bathroom/BathtubLeg.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Bathroom/Bathtub_Leg.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Bathroom/Bathtub_Leg.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Bathroom/Floor.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Bathroom/Floor.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Bathroom/Mirror.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Bathroom/Mirror.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Bathroom/Pipes.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Bathroom/Pipes.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Bathroom/Radiator.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Bathroom/Radiator.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Bathroom/Sink.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Bathroom/Sink.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Bathroom/Wall_Bathroom.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Bathroom/Wall_Bathroom.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Bathroom/Walls.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Bathroom/Walls.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/BedRoom/Bed.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/BedRoom/Bed.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/BedRoom/Bedside.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/BedRoom/Bedside.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/BedRoom/Floor.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/BedRoom/Floor.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/BedRoom/Wall_Bedroom.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/BedRoom/Wall_Bedroom.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/BedRoom/Wardrobe.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/BedRoom/Wardrobe.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Characters/Gargoyle.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Characters/Gargoyle.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Characters/JohnPBR.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Characters/JohnPBR.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Characters/Light_Cone.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Characters/Light_Cone.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Corridor/Door_Post.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Corridor/Door_Post.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Corridor/Floor.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Corridor/Floor.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Corridor/Light.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Corridor/Light.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Corridor/Light_Glass.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Corridor/Light_Glass.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Corridor/PictureFrame.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Corridor/PictureFrame.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Corridor/Rugs.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Corridor/Rugs.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Corridor/Wall_Corridor.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Corridor/Wall_Corridor.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Corridor/Window.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Corridor/Window.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/DiningRoom/CandleStick.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/DiningRoom/CandleStick.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/DiningRoom/Chair.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/DiningRoom/Chair.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/DiningRoom/Clock.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/DiningRoom/Clock.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/DiningRoom/Fireplace.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/DiningRoom/Fireplace.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/DiningRoom/Floor.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/DiningRoom/Floor.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/DiningRoom/Monster_Lamp.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/DiningRoom/Monster_Lamp.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/DiningRoom/Table.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/DiningRoom/Table.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/DiningRoom/Wall_Diningroom.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/DiningRoom/Wall_Diningroom.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/VFX/CandleFlame.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/VFX/CandleFlame.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/VFX/DustMote.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/VFX/DustMote.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/VFX/Emissive.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/VFX/Emissive.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/VFX/Splash.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/VFX/Splash.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/VFX/Steam.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/VFX/Steam.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/VFX/WaterDropSmall.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/VFX/WaterDropSmall.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main Scene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Main Scene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Cinemachine.Player.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Cinemachine.Player.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Cinemachine.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Cinemachine.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FP_John_Lemon.sln" beforeDir="false" afterPath="$PROJECT_DIR$/FP_John_Lemon.sln" afterDir="false" />
@@ -78,6 +119,7 @@
       <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe1.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe1.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Temp/CompilationLog.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Temp/CompilationLog.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Temp/ProcessJobs/0cfb2a7b425dc785f907b6560e14a3d2.bakert" beforeDir="false" />
@@ -141,6 +183,7 @@
       <change beforePath="$PROJECT_DIR$/UnityEngine.UI.Player.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/UnityEngine.UI.Player.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UnityEngine.UI.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/UnityEngine.UI.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UnityEngine.XR.LegacyInputHelpers.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/UnityEngine.XR.LegacyInputHelpers.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/com.unity.cinemachine.editor.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/com.unity.cinemachine.editor.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.Player.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.Player.csproj.AssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/Unity.Analytics.DataPrivacy.Player.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Unity.Analytics.DataPrivacy.Player.csproj.AssemblyReference.cache" afterDir="false" />
@@ -216,7 +259,7 @@
       <updated>1629044378003</updated>
       <workItem from="1629044400957" duration="13871000" />
       <workItem from="1629148178841" duration="9168000" />
-      <workItem from="1629217183052" duration="525000" />
+      <workItem from="1629217183052" duration="1119000" />
     </task>
     <servers />
   </component>
