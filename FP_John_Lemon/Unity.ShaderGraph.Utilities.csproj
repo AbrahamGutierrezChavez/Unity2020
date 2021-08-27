@@ -52,10 +52,10 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Library\PackageCache\com.unity.shadergraph@10.5.1\Editor\Utilities\EnumInfo.cs" />
      <Compile Include="Library\PackageCache\com.unity.shadergraph@10.5.1\Editor\Utilities\GenerationAPIAttribute.cs" />
      <Compile Include="Library\PackageCache\com.unity.shadergraph@10.5.1\Editor\Utilities\AssemblyInfo.cs" />
      <Compile Include="Library\PackageCache\com.unity.shadergraph@10.5.1\Editor\Utilities\StringBuilderExtensions.cs" />
-     <Compile Include="Library\PackageCache\com.unity.shadergraph@10.5.1\Editor\Utilities\EnumInfo.cs" />
      <None Include="Library\PackageCache\com.unity.shadergraph@10.5.1\Editor\Utilities\Unity.ShaderGraph.Utilities.asmdef" />
  <Reference Include="UnityEngine">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>

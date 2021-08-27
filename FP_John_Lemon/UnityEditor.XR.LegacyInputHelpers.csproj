@@ -52,10 +52,10 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Library\PackageCache\com.unity.xr.legacyinputhelpers@2.1.4\Editor\CameraOffsetEditor.cs" />
      <Compile Include="Library\PackageCache\com.unity.xr.legacyinputhelpers@2.1.4\Editor\ArmModels\TransitionArmModelEditor.cs" />
      <Compile Include="Library\PackageCache\com.unity.xr.legacyinputhelpers@2.1.4\Editor\SeedXRInputBindings\SeedXRInputBindings.cs" />
      <Compile Include="Library\PackageCache\com.unity.xr.legacyinputhelpers@2.1.4\Editor\ArmModels\SwingArmModelEditor.cs" />
+     <Compile Include="Library\PackageCache\com.unity.xr.legacyinputhelpers@2.1.4\Editor\CameraOffsetEditor.cs" />
      <Compile Include="Library\PackageCache\com.unity.xr.legacyinputhelpers@2.1.4\Editor\ArmModels\ArmModelEditor.cs" />
      <Compile Include="Library\PackageCache\com.unity.xr.legacyinputhelpers@2.1.4\Editor\MenuUtils.cs" />
      <None Include="Library\PackageCache\com.unity.xr.legacyinputhelpers@2.1.4\Editor\LegacyInputHelpersEditor.asmdef" />
